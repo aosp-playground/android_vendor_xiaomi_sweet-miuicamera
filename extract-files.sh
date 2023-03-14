@@ -61,6 +61,9 @@ function blob_fixup() {
         system/lib64/libcamera_algoup_jni.xiaomi.so|system/lib64/libcamera_mianode_jni.xiaomi.so)
             patchelf --replace-needed libgui.so libgui-xiaomi.so "${2}"
             ;;
+        system/lib64/libmicampostproc_client.so)
+            patchelf --remove-needed libhidltransport.so "${2}"
+            ;;
     esac
 }
 
