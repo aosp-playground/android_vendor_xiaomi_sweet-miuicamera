@@ -39,6 +39,6 @@ product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera
 -vendor/lib64/libipanat.so
 -vendor/lib64/liblearningmodule.so
 -vendor/lib64/libwebrtc_audio_preprocessing.so
--vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
--vendor/lib64/vendor.qti.hardware.camera.device@2.0.so
--vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
+-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so;MODULE=vendor.qti.hardware.camera.device@1.0_vendor
+-vendor/lib64/vendor.qti.hardware.camera.device@2.0.so;MODULE=vendor.qti.hardware.camera.device@2.0_vendor
+-vendor/lib64/vendor.qti.hardware.camera.device@3.5.so;MODULE=vendor.qti.hardware.camera.device@3.5_vendor

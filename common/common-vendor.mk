@@ -15,11 +15,11 @@ PRODUCT_PACKAGES += \
     libmicampostproc_client \
     vendor.xiaomi.hardware.campostproc@1.0 \
     libSNPE \
+    libmialgo_rfs_cdsp_skel \
+    libsnpe_dsp_v65_domains_v2_skel \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@2.0 \
     vendor.qti.hardware.camera.device@3.5 \
-    libmialgo_rfs_cdsp_skel \
-    libsnpe_dsp_v65_domains_v2_skel \
     android.hardware.camera.provider@2.4-external \
     android.hardware.camera.provider@2.4-legacy \
     camera.device@1.0-impl \
@@ -43,6 +43,9 @@ PRODUCT_PACKAGES += \
     libipanat \
     liblearningmodule \
     libwebrtc_audio_preprocessing \
+    vendor.qti.hardware.camera.device@1.0_vendor \
+    vendor.qti.hardware.camera.device@2.0_vendor \
+    vendor.qti.hardware.camera.device@3.5_vendor \
     libdisplayconfig.system.qti \
     MiuiCamera \
     android.hardware.camera.provider@2.4-service_64
