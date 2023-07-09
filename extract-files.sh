@@ -55,11 +55,8 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        system/lib64/libgui-xiaomi.so)
-            patchelf --set-soname libgui-xiaomi.so "${2}"
-            ;;
         system/lib64/libcamera_algoup_jni.xiaomi.so|system/lib64/libcamera_mianode_jni.xiaomi.so)
-            patchelf --replace-needed libgui.so libgui-xiaomi.so "${2}"
+            patchelf --add-needed "libgui_shim_miuicamera.so" "${2}"
             ;;
     esac
 }

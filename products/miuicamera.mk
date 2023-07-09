@@ -9,6 +9,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet-miuicamera/configs/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/miuicamera-permissions.xml \
     vendor/xiaomi/sweet-miuicamera/configs/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
 
+# Shims
+PRODUCT_PACKAGES += \
+    libgui_shim_miuicamera
+
 # Sysconfig
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet-miuicamera/configs/sysconfig/miuicamera-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-whitelist.xml
