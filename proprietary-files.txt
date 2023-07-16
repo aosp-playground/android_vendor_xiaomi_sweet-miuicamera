@@ -2,9 +2,9 @@
 
 -product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Snap,Camera2,GoogleCameraGo
 system/lib64/android.hardware.camera.common@1.0.so
-system/lib64/libgui.so:system/lib64/libgui-xiaomi.so
 system/lib64/libcamera_algoup_jni.xiaomi.so
 system/lib64/libcamera_mianode_jni.xiaomi.so
+system/lib64/libgui.so:system/lib64/libgui-xiaomi.so
 system/lib64/libhidltransport.so
 system/lib64/libmicampostproc_client.so
 system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
@@ -19,7 +19,6 @@ vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.device@2.0.so
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so
-vendor/lib64/libSNPE.so:system/lib64/libSNPE.so
 vendor/lib64/android.hardware.camera.provider@2.4-external.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/camera.device@1.0-impl.so
@@ -30,6 +29,7 @@ vendor/lib64/camera.device@3.4-impl.so
 vendor/lib64/camera.device@3.5-external-impl.so
 vendor/lib64/camera.device@3.5-impl.so
 vendor/lib64/camera.device@3.6-external-impl.so
+vendor/lib64/libSNPE.so:system/lib64/libSNPE.so
 vendor/lib64/libalRnBRT_GL_GBWRAPPER.so
 vendor/lib64/libalsautils.so
 vendor/lib64/libaoa.so
